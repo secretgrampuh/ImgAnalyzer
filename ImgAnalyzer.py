@@ -28,7 +28,7 @@ import argparse
 ### Ok so here's the current problem is I only have hex codes not RGB codes, duh. Line 110ish, but it's not coming out of Analyze Image correctly. I need to see if i can get RGB codes as list
 
 def Find_Current_Adobe_Install():
-    flash_name = "Adobe Animate 2023"
+    flash_name = "Adobe Animate 2023"#comment here
     newPATH="/Applications"#/Applications/Adobe Animate 2023/Adobe Animate 2023.app/Contents/MacOS/Adobe Animate 2023
     adobePaths=[]
     versionsArray=[]        
